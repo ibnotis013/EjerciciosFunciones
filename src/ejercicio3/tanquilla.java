@@ -12,9 +12,13 @@ public class tanquilla {
         System.out.println("es el dia del espectador True/false ?");
         boolean diaEspectador=sc.nextBoolean();
         System.out.println("el precio seria "+gestorentradas.preciofinal(edad,diaEspectador));
-
        gestorentradas.imprimir(peli,13,gestorentradas.preciofinal(edad,diaEspectador));
         }
+
+
+
+
+
         }
 
 

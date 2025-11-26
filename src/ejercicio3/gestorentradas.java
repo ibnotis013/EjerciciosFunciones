@@ -1,10 +1,14 @@
 package ejercicio3;
 
 public class gestorentradas {
+
+
 private static final double PRECIO=10.0;
+
 public static double precio(){
 return PRECIO;
 }
+
 public static double preciofinal(int edad, boolean esDiaEspectador){
     if(edad>65){
         return PRECIO*0.5;
