@@ -17,7 +17,7 @@ public class validador {
         if(nombre==null || nombre.isEmpty()){
             return nombre;
         }
-        return nombre.substring(0, 1).toUpperCase() + nombre.substring(1);
+        return nombre.substring(0, 1).toUpperCase() + nombre.substring(1).toLowerCase();
     }
 
 
