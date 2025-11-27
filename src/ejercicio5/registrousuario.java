@@ -15,11 +15,11 @@ public class registrousuario {
         do {
             System.out.println("ingrese la contraseña");
             password = sc.next();
-            if (validador.esPasswordSegura(password)==false) {
+            if (!validador.esPasswordSegura(password)) {
                 validador.mostrarErrores();
             }
 
-        }while(validador.esPasswordSegura(password)==false);
+        }while(!validador.esPasswordSegura(password));
 
 
 
